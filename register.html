@@ -96,76 +96,71 @@
 </div>
 <br>
     <!-- Heading -->
-        <h1 class="govuk-heading-xl">Select Project</h1>
+        <h1 class="govuk-heading-xl">Projects management tool</h1>
         </main>
     </div>
     <div class="govuk-width-container">
-      <p class="govuk-body-l">Use this tool to file reports for your ongoing projects</p>
-      <div class="govuk-inset-text">
-  You can use the below dropdown boxes to select the appropriate project.
-  </div>
+      <p class="govuk-body-l">Register page</p>
+
 </div>
 <br>
 
-    <!-- Project type Dropdown -->
+    <!-- Register -->
     <div class="govuk-width-container ">
+      <div class="govuk-form-group">
+  <label class="govuk-label" for="full-name">
+    Full name
+  </label>
+  <input class="govuk-input" id="full-name" name="full-name" type="text">
+</div>
+      <div class="govuk-form-group">
+      <label class="govuk-label" for="email">
+        Email address
+      </label>
+      <span id="email-hint" class="govuk-hint">
+         Log in using your DfE email address
+      </span>
+      <input class="govuk-input" id="email" name="email" type="email" aria-describedby="email-hint">
+    </div>
+
     <div class="govuk-form-group">
-    <label class="govuk-label" for="sort">
-      Portfolio
+    <label class="govuk-label" for="password">
+      Password
     </label>
+    <span id="email-hint" class="govuk-hint">
+       Use a minimum of 8 mixed type characters password
+    </span>
+    <input class="govuk-input" id="myInput" name="password" type="password">
+  </div>
+
+  <div class="govuk-form-group">
+  <label class="govuk-label" for="password">
+    Re-tye password
+  </label>
+  <span id="email-hint" class="govuk-hint">
+     Use a memorable password, with non repeating or consecutive characters
+  </span>
+  <input class="govuk-input" id="myInput" name="password" type="password">
+</div>
+  <div class="govuk-width-container">
+  <div class="govuk-form-group">
+  <label class="govuk-label" for="sort">
+  Role
+  </label>
     <select class="govuk-select" id="sort" name="sort">
-      <option value="selected" selected>choose one</option>
-      <option value="funding">Funding service</option>
-      <option value="data">Data service</option>
-      <option value="career">National career service</option>
-      <option value="apprentiship">Apprenticeship service</option>
-      <option value="data">Corporate services</option>
-      <option value="tas">Teachers and schools</option>
-      <option value="technical">Technical services</option>
+    <option value="selected" selected>Current role</option>
+    <option value="collection">PM</option>
+    <option value="exchange">PMO</option>
+    <option value="hub">SRO</option>
     </select>
    </div>
   </div>
 </div>
-
-<div class="govuk-width-container ">
-<div class="govuk-form-group">
-<label class="govuk-label" for="sort">
-  Project
-</label>
-<select class="govuk-select" id="sort" name="sort">
-  <option value="selected" selected>choose one</option>
-  <option value="collection">Collection transformation</option>
-  <option value="exchange">Exchange</option>
-  <option value="hub">Education and skills hub</option>
-  <option value="post">Post 16 review</option>
-</select>
-</div>
-</div>
-
-</legend>
-<div class="govuk-width-container">
-  <div class="govuk-form-group">
-  <label class="govuk-label" for="sort">
-  Project ID
-  </label>
-  <select class="govuk-select" id="sort" name="sort">
-  <option value="selected" selected>choose one</option>
-  <option value="collection">IT404</option>
-  <option value="exchange">IT455</option>
-  <option value="hub">CX345</option>
-  <option value="post">DM980</option>
-  </select>
-  </div>
-  </div>
-  </div>
-  </legend>
-</div>
-
-<br>
+<br><br>
   <!-- Green Button -->
 <div class="govuk-width-container"
 <button type="submit" class="govuk-button">
-<a href="details.html" role="button" class="govuk-button govuk-button--start">
+<a href="login.html" role="button" class="govuk-button govuk-button--start">
   Continue
 </a></button>
 </div>
