@@ -58,19 +58,19 @@
             </div>
 
             <div class="govuk-header__content">
-                <a href="home.html" class="govuk-header__link govuk-header__link--service-name">Project Management Tool</a>
+                <a href="register.html" class="govuk-header__link govuk-header__link--service-name">Project Management Tool</a>
 
                 <button role="button" class="govuk-header__menu-button js-header-toggle" aria-controls="navigation" aria-label="Show or hide Top Level Navigation">Menu</button>
                 <nav>
                     <ul id="navigation" class="govuk-header__navigation " aria-label="Top Level Navigation">
-                        <li class="govuk-header__navigation-item govuk-header__navigation-item--active">
+                        <li class="govuk-header__navigation-item">
                             <a class="govuk-header__link" href="home.html">Home</a>
                         </li>
                         <li class="govuk-header__navigation-item">
                             <a class="govuk-header__link" href="reports.html">Reports</a>
                         </li>
-                        <li class="govuk-header__navigation-item">
-                            <a class="govuk-header__link" href="#4">Admin</a>
+                        <li class="govuk-header__navigation-item govuk-header__navigation-item--active">
+                            <a class="govuk-header__link" href="create.html">Admin</a>
                         </li>
                     </ul>
                 </nav>
@@ -95,23 +95,35 @@
   </p>
 </div>
 <br>
-    <!-- Breadcrumps -->
-    <div class="govuk-width-container">
-    <div class="govuk-breadcrumbs">
-      <ol class="govuk-breadcrumbs__list">
-        <li class="govuk-breadcrumbs__list-item">
-          <a class="govuk-breadcrumbs__link" href="home.html">Home</a>
-        </li>
-        <li class="govuk-breadcrumbs__list-item" aria-current="page">Create Project</li>
-      </ol>
-    </div>
-    <br>
+
     <!-- Heading -->
         <h1 class="govuk-heading-xl">Create a new project</h1>
         </main>
     </div>
     </div>
     <!-- Project Figures -->
+
+    <div class="govuk-width-container">
+    <div class="govuk-form-group">
+      <label class="govuk-label" for="national-insurance-number">
+        Project ID
+      </label>
+      <span id="figures-number-hint" class="govuk-hint">
+        Insert the letter number combination appropriate for this project.
+      </span>
+      <input class="govuk-input govuk-input--width-10" id="national-insurance-number" name="national-insurance-number" type="text" aria-describedby="national-insurance-number-hint">
+    </div>
+
+    <div class="govuk-form-group">
+      <label class="govuk-label" for="national-insurance-number">
+        Project Name
+      </label>
+      <span id="figures-number-hint" class="govuk-hint">
+        Insert the name for this project.
+      </span>
+      <input class="govuk-input govuk-!-width-two-thirds" id="address-town" name="address-town" type="text">
+    </div>
+
 
   <div class="govuk-width-container">
   <div class="govuk-form-group">
@@ -164,7 +176,7 @@
   </legend>
   <br>
   <label class="govuk-label" for="more-detail">
-    Go-Live Forecast
+    Go-Live baseline date
   </label>
   <div class="govuk-date-input" id="dob">
     <div class="govuk-date-input__item">
@@ -205,6 +217,26 @@
     Insert figure to the penny including VAT, For example ‘£31250,75’.
   </span>
   <input class="govuk-input govuk-input--width-10" id="national-insurance-number" name="national-insurance-number" type="text" aria-describedby="national-insurance-number-hint">
+</div>
+
+<div class="govuk-form-group">
+  <label class="govuk-label" for="email">
+    PM Email address
+  </label>
+  <span id="email-hint" class="govuk-hint">
+    Use this field to insert current Project manager's email address
+  </span>
+  <input class="govuk-input" id="email" name="email" type="email" aria-describedby="email-hint">
+</div>
+
+<div class="govuk-form-group">
+  <label class="govuk-label" for="email">
+    SRO Email address
+  </label>
+  <span id="email-hint" class="govuk-hint">
+    Use this field to insert current SRO's email address
+  </span>
+  <input class="govuk-input" id="email" name="email" type="email" aria-describedby="email-hint">
 </div>
 
 <br>

@@ -58,7 +58,7 @@
             </div>
 
             <div class="govuk-header__content">
-                <a href=home.html class="govuk-header__link govuk-header__link--service-name">Project Management Tool</a>
+                <a href=register.html class="govuk-header__link govuk-header__link--service-name">Project Management Tool</a>
 
                 <button role="button" class="govuk-header__menu-button js-header-toggle" aria-controls="navigation" aria-label="Show or hide Top Level Navigation">Menu</button>
                 <nav>
@@ -70,7 +70,7 @@
                             <a class="govuk-header__link" href="reports.html">Reports</a>
                         </li>
                         <li class="govuk-header__navigation-item">
-                            <a class="govuk-header__link" href="#4">Admin</a>
+                            <a class="govuk-header__link" href="create.html">Admin</a>
                         </li>
                     </ul>
                 </nav>
@@ -100,7 +100,7 @@
         </main>
     </div>
     <div class="govuk-width-container">
-      <p class="govuk-body-l">In this page of this application you can look into reports submitted for the last 3 months</p>
+      <p class="govuk-body-l">In this page of this application you can look into reports submitted for the last 2 months</p>
       <div class="govuk-inset-text">
   You can use the below dropdown boxes to select the appropriate project.
   </div>
@@ -108,6 +108,21 @@
 <br>
 
     <!-- Project type Dropdown -->
+
+
+    <div class="govuk-width-container ">
+    <div class="govuk-form-group">
+    <label class="govuk-label" for="sort">
+      Reporting period
+    </label>
+    <select class="govuk-select" id="sort" name="sort">
+      <option value="selected" selected>Current month</option>
+      <option value="funding">Previous month</option>
+    </select>
+   </div>
+  </div>
+  </div>
+
     <div class="govuk-width-container ">
     <div class="govuk-form-group">
     <label class="govuk-label" for="sort">
@@ -142,23 +157,6 @@
 </div>
 </div>
 
-</legend>
-<div class="govuk-width-container">
-  <div class="govuk-form-group">
-  <label class="govuk-label" for="sort">
-  Project ID
-  </label>
-  <select class="govuk-select" id="sort" name="sort">
-  <option value="selected" selected>choose one</option>
-  <option value="collection">IT404</option>
-  <option value="exchange">IT455</option>
-  <option value="hub">CX345</option>
-  <option value="post">DM980</option>
-  </select>
-  </div>
-  </div>
-  </div>
-  </legend>
 
 <br>
   <!-- Green Button -->

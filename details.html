@@ -58,7 +58,7 @@
             </div>
 
             <div class="govuk-header__content">
-                <a href="home.html" class="govuk-header__link govuk-header__link--service-name">Project Management Tool</a>
+                <a href="register.html" class="govuk-header__link govuk-header__link--service-name">Project Management Tool</a>
 
                 <button role="button" class="govuk-header__menu-button js-header-toggle" aria-controls="navigation" aria-label="Show or hide Top Level Navigation">Menu</button>
                 <nav>
@@ -70,7 +70,7 @@
                             <a class="govuk-header__link" href="reports.html">Reports</a>
                         </li>
                         <li class="govuk-header__navigation-item">
-                            <a class="govuk-header__link" href="#4">Admin</a>
+                            <a class="govuk-header__link" href="create.html">Admin</a>
                         </li>
                     </ul>
                 </nav>
@@ -95,17 +95,7 @@
   </p>
 </div>
 <br>
-    <!-- Breadcrumps -->
-    <div class="govuk-width-container">
-    <div class="govuk-breadcrumbs">
-      <ol class="govuk-breadcrumbs__list">
-        <li class="govuk-breadcrumbs__list-item">
-          <a class="govuk-breadcrumbs__link" href="home.html">Home</a>
-        </li>
-        <li class="govuk-breadcrumbs__list-item" aria-current="page">Details</li>
-      </ol>
-    </div>
-    <br>
+
     <!-- Heading -->
         <h1 class="govuk-heading-xl">Data Service Portfolio</h1>
         </main>
@@ -116,121 +106,134 @@
     <fieldset class="govuk-fieldset">
       <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
         <h1 class="govuk-heading-l">
-          Project IT455, details
+          Project 'Post 16 review', details
         </h1>
-<br>
-  <div class="govuk-width-container">
-  <div class="govuk-form-group">
-  <label class="govuk-label" for="sort">
-  Current stage
-  </label>
-    <select class="govuk-select" id="sort" name="sort">
-    <option value="selected" selected>choose one</option>
-    <option value="collection">Discovery</option>
-    <option value="exchange">Private Beta</option>
-    <option value="hub">Public Beta</option>
-    <option value="post">Alpha</option>
-   </select>
-   </div>
-  </div>
- </div>
-</legend>
+
+<!--Fixed data-->
+
 <div class="govuk-width-container">
-<label class="govuk-label" for="more-detail">
-  Go-Live Baseline
-</label>
-<div class="govuk-date-input" id="dob">
-  <div class="govuk-date-input__item">
-    <div class="govuk-form-group">
-      <label class="govuk-label govuk-date-input__label" for="dob-day">
-        Day
-      </label>
-      <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="dob-day" name="dob-day" type="number" pattern="[0-9]*">
-    </div>
-  </div>
-  <div class="govuk-date-input__item">
-    <div class="govuk-form-group">
-      <label class="govuk-label govuk-date-input__label" for="dob-month">
-        Month
-      </label>
-      <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="dob-month" name="dob-month" type="number" pattern="[0-9]*">
-    </div>
-  </div>
-  <div class="govuk-date-input__item">
-    <div class="govuk-form-group">
-      <label class="govuk-label govuk-date-input__label" for="dob-year">
-        Year
-      </label>
-      <input class="govuk-input govuk-date-input__input govuk-input--width-4" id="dob-year" name="dob-year" type="number" pattern="[0-9]*">
-    </div>
-  </div>
-  <div class="govuk-form-group">
-<fieldset class="govuk-fieldset" aria-describedby="dob-hint" role="group">
-  <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
-  </legend>
-  <br>
-  <label class="govuk-label" for="more-detail">
-    Go-Live Forecast
-  </label>
-  <div class="govuk-date-input" id="dob">
-    <div class="govuk-date-input__item">
-      <div class="govuk-form-group">
-        <label class="govuk-label govuk-date-input__label" for="dob-day">
-          Day
-        </label>
-        <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="dob-day" name="dob-day" type="number" pattern="[0-9]*">
+    <main class="govuk-main-wrapper">
+
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-one-third">
+        <h1 class="govuk-heading-m">Current phase</h1>
+        <p class="govuk-body">Private Beta</p>
       </div>
-    </div>
-    <div class="govuk-date-input__item">
-      <div class="govuk-form-group">
-        <label class="govuk-label govuk-date-input__label" for="dob-month">
-          Month
-        </label>
-        <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="dob-month" name="dob-month" type="number" pattern="[0-9]*">
+
+      <div class="govuk-grid-column-one-third">
+        <h3 class="govuk-heading-m">Phase end date</h3>
+        <p class="govuk-body">22 January 2019</p>
       </div>
-    </div>
-    <div class="govuk-date-input__item">
-      <div class="govuk-form-group">
-        <label class="govuk-label govuk-date-input__label" for="dob-year">
-          Year
-        </label>
-        <input class="govuk-input govuk-date-input__input govuk-input--width-4" id="dob-year" name="dob-year" type="number" pattern="[0-9]*">
+
+      <div class="govuk-grid-column-one-third">
+        <h3 class="govuk-heading-m">Go live date</h3>
+        <p class="govuk-body">10 April 2019</p>
       </div>
+
     </div>
+
+  </main>
+</div>
+
+<!--Insert data-->
+
+<div class="govuk-width-container">
+<div class="govuk-inset-text">
+  Use the below fieldset to insert your report for <strong>November 2018</strong>
+</div>
+
+    <label class="govuk-label" for="more-detail">
+      Phase end forecast
+    </label>
+    <div class="govuk-date-input" id="dob">
+      <div class="govuk-date-input__item">
+        <div class="govuk-form-group">
+          <label class="govuk-label govuk-date-input__label" for="dob-day">
+            Day
+          </label>
+          <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="dob-day" name="dob-day" type="number" pattern="[0-9]*">
+        </div>
+      </div>
+      <div class="govuk-date-input__item">
+        <div class="govuk-form-group">
+          <label class="govuk-label govuk-date-input__label" for="dob-month">
+            Month
+          </label>
+          <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="dob-month" name="dob-month" type="number" pattern="[0-9]*">
+        </div>
+      </div>
+      <div class="govuk-date-input__item">
+        <div class="govuk-form-group">
+          <label class="govuk-label govuk-date-input__label" for="dob-year">
+            Year
+          </label>
+          <input class="govuk-input govuk-date-input__input govuk-input--width-4" id="dob-year" name="dob-year" type="number" pattern="[0-9]*">
+        </div>
+      </div>
+
+    <label class="govuk-label" for="more-detail">
+      Go-Live forecast
+    </label>
+    <div class="govuk-date-input" id="dob">
+      <div class="govuk-date-input__item">
+        <div class="govuk-form-group">
+          <label class="govuk-label govuk-date-input__label" for="dob-day">
+            Day
+          </label>
+          <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="dob-day" name="dob-day" type="number" pattern="[0-9]*">
+        </div>
+      </div>
+      <div class="govuk-date-input__item">
+        <div class="govuk-form-group">
+          <label class="govuk-label govuk-date-input__label" for="dob-month">
+            Month
+          </label>
+          <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="dob-month" name="dob-month" type="number" pattern="[0-9]*">
+        </div>
+      </div>
+      <div class="govuk-date-input__item">
+        <div class="govuk-form-group">
+          <label class="govuk-label govuk-date-input__label" for="dob-year">
+            Year
+          </label>
+          <input class="govuk-input govuk-date-input__input govuk-input--width-4" id="dob-year" name="dob-year" type="number" pattern="[0-9]*">
+        </div>
+      </div>
 </div>
 </fieldset>
 </div>
 </div>
 </div>
+
 <div class="govuk-width-container">
 <div class="govuk-form-group">
   <label class="govuk-label" for="national-insurance-number">
-    Actuals to end month
+    Risk description
   </label>
   <span id="figures-number-hint" class="govuk-hint">
-    Insert figure to the penny including VAT, For example ‘£31250,75’.
+    Insert a label possibly a couple of words, For example ‘Third party issue'.
   </span>
-  <input class="govuk-input govuk-input--width-10" id="national-insurance-number" name="national-insurance-number" type="text" aria-describedby="national-insurance-number-hint">
+  <input class="govuk-input" id="name" name="name" type="text">
 </div>
 
 <div class="govuk-form-group">
   <label class="govuk-label" for="national-insurance-number">
-    Forecast to end project
+    Risk category
   </label>
   <span id="figures-number-hint" class="govuk-hint">
-    Insert figure to the penny including VAT, For example ‘£31250,75’
+    Insert the type of category the risk is in, For example ‘Danger’
   </span>
-  <input class="govuk-input govuk-input--width-10" id="national-insurance-number" name="national-insurance-number" type="text" aria-describedby="national-insurance-number-hint">
+  <input class="govuk-input" id="name" name="name" type="text">
 </div>
 
 <br>
 <div class="govuk-width-container">
 <div class="govuk-form-group">
   <label class="govuk-label" for="more-detail">
-    Can you provide any issue details?
+    Risk impact level
   </label>
   <span id="more-detail-hint" class="govuk-hint">
-    Use this text area to provide details on issues that may affect this project.
+    Use this text area to provide details on how this risk may affect this project.
   </span>
   <textarea class="govuk-textarea" id="more-detail" name="more-detail" rows="5" aria-describedby="more-detail-hint"></textarea>
 </div>
