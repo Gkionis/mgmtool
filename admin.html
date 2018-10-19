@@ -63,13 +63,13 @@
                 <button role="button" class="govuk-header__menu-button js-header-toggle" aria-controls="navigation" aria-label="Show or hide Top Level Navigation">Menu</button>
                 <nav>
                     <ul id="navigation" class="govuk-header__navigation " aria-label="Top Level Navigation">
-                        <li class="govuk-header__navigation-item govuk-header__navigation-item--active">
+                        <li class="govuk-header__navigation-item">
                             <a class="govuk-header__link" href="home.html">Create report</a>
                         </li>
                         <li class="govuk-header__navigation-item">
                             <a class="govuk-header__link" href="reports.html">View reports</a>
                         </li>
-                        <li class="govuk-header__navigation-item">
+                        <li class="govuk-header__navigation-item govuk-header__navigation-item--active">
                             <a class="govuk-header__link" href="admin.html">Admin</a>
                         </li>
                     </ul>
@@ -86,7 +86,7 @@
         <main class="govuk-main-wrapper app-main-class" id="main-content" role="main">
           <div class="govuk-phase-banner">
   <p class="govuk-phase-banner__content"><strong class="govuk-tag govuk-phase-banner__content__tag ">
-  beta
+  alpha
 </strong>
     <span class="govuk-phase-banner__text">
       This is a new service – your
@@ -97,122 +97,52 @@
 <br>
 
     <!-- Heading -->
-        <h1 class="govuk-heading-xl">Data Service Portfolio</h1>
+        <h1 class="govuk-heading-xl">Projects management tool</h1>
         </main>
     </div>
     </div>
-    <!-- Project Figures -->
     <div class="govuk-width-container">
-    <fieldset class="govuk-fieldset">
-      <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
-        <h1 class="govuk-heading-l">
-          Project 'Post 16 review', details
-        </h1>
+    <div class="govuk-inset-text">
+      It can take up to 8 weeks to register a lasting power of attorney if there are no mistakes in the application.
+    </div>
+  </div>
 
-<!--Fixed data-->
+    <!-- Project admin split buttons -->
 
-<div class="govuk-width-container">
-    <main class="govuk-main-wrapper">
 
-    <div class="govuk-grid-row">
-      <div class="govuk-grid-column-one-third">
-        <h3 class="govuk-heading-m">Current phase</h3>
-        <p class="govuk-body">Private Beta</p>
-      </div>
+    <div class="govuk-width-container">
+        <main class="govuk-main-wrapper">
+        <div class="govuk-grid-row">
+          <div class="govuk-grid-column-one-third">
+            <h1 class="govuk-heading-m">Create new Project</h1>
+            <p class="govuk-body">This is where you can create a new project</p>
+            <div class="govuk-width-container"
+            <button type="submit" class="govuk-button">
+            <a href="create.html" role="button" class="govuk-button govuk-button">
+              Create
+            </a>
+          </button>
+          </div>
+        </div>
+          <div class="govuk-grid-column-one-third">
+            <h1 class="govuk-heading-m">Edit a Project</h1>
+            <p class="govuk-body">This is where you can edit an existing project</p>
+            <div class="govuk-width-container"
+            <button type="submit" class="govuk-button">
+            <a href="edit.html" role="button" class="govuk-button govuk-button">
+              Edit
+            </a>
+          </button>
+          </div>
+       </div>
 
-      <div class="govuk-grid-column-one-third">
-        <h3 class="govuk-heading-m">Phase end date</h3>
-        <p class="govuk-body">22 January 2019</p>
-      </div>
 
-      <div class="govuk-grid-column-one-third">
-        <h3 class="govuk-heading-m">Go live date</h3>
-        <p class="govuk-body">10 April 2019</p>
-      </div>
+        </div>
 
+      </main>
     </div>
 
-  </main>
-</div>
 
-<!--Insert data-->
-
-<div class="govuk-width-container">
-<div class="govuk-inset-text">
-  Use the dates fieldset to insert the dates for <strong>November 2018</strong>
-</div>
-
-    <label class="govuk-label" for="more-detail">
-      Phase end forecast
-    </label>
-    <div class="govuk-date-input" id="dob">
-      <div class="govuk-date-input__item">
-        <div class="govuk-form-group">
-          <label class="govuk-label govuk-date-input__label" for="dob-day">
-            Day
-          </label>
-          <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="dob-day" name="dob-day" type="number" pattern="[0-9]*">
-        </div>
-      </div>
-      <div class="govuk-date-input__item">
-        <div class="govuk-form-group">
-          <label class="govuk-label govuk-date-input__label" for="dob-month">
-            Month
-          </label>
-          <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="dob-month" name="dob-month" type="number" pattern="[0-9]*">
-        </div>
-      </div>
-      <div class="govuk-date-input__item">
-        <div class="govuk-form-group">
-          <label class="govuk-label govuk-date-input__label" for="dob-year">
-            Year
-          </label>
-          <input class="govuk-input govuk-date-input__input govuk-input--width-4" id="dob-year" name="dob-year" type="number" pattern="[0-9]*">
-        </div>
-      </div>
-
-    <label class="govuk-label" for="more-detail">
-      Go-Live forecast
-    </label>
-    <div class="govuk-date-input" id="dob">
-      <div class="govuk-date-input__item">
-        <div class="govuk-form-group">
-          <label class="govuk-label govuk-date-input__label" for="dob-day">
-            Day
-          </label>
-          <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="dob-day" name="dob-day" type="number" pattern="[0-9]*">
-        </div>
-      </div>
-      <div class="govuk-date-input__item">
-        <div class="govuk-form-group">
-          <label class="govuk-label govuk-date-input__label" for="dob-month">
-            Month
-          </label>
-          <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="dob-month" name="dob-month" type="number" pattern="[0-9]*">
-        </div>
-      </div>
-      <div class="govuk-date-input__item">
-        <div class="govuk-form-group">
-          <label class="govuk-label govuk-date-input__label" for="dob-year">
-            Year
-          </label>
-          <input class="govuk-input govuk-date-input__input govuk-input--width-4" id="dob-year" name="dob-year" type="number" pattern="[0-9]*">
-        </div>
-      </div>
-</div>
-</fieldset>
-</div>
-</div>
-</div>
-
-<br>
-<div class="govuk-width-container">
-  <a href="completed.html" role="button" class="govuk-button">
-  Submit
-</a>
-</div>
-<br>
-</div>
   </body>
     <!-- Page footer -->
     <footer class="govuk-footer " role="contentinfo">
